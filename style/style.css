@@ -95,6 +95,10 @@ a {
   color: #2F80ED;
 }
 
+.cities-link-list a:hover {
+  font-weight: 600;
+}
+
 .site-navigation-list {
   display: flex;
   margin: 0 70px 0 160px;
@@ -212,9 +216,6 @@ a {
 /* ДЛЯ КОГО БЛОК*/
 .for-who {
   padding: 115px 0 170px 0;
-  background-image: url("img/Rectangle123.png");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .section-title {
@@ -280,9 +281,6 @@ a {
 .about-course {
   padding-top: 130px;
   padding-bottom: 100px;
-  background-image: url("img/circle123.png");
-  background-repeat: no-repeat;
-  background-position: top right;
 }
 
 .about-course .section-title {
@@ -295,6 +293,10 @@ a {
 
 .full-programm {
   border-bottom: dashed 2px #2F80ED;
+}
+
+.full-programm:hover {
+  border-bottom: none;
 }
 
 /* О КУРСЕ БЛОК */
@@ -503,7 +505,7 @@ a {
 /* ЦЕНА БЛОК */
 .price {
   padding-bottom: 190px;
-  background-image: url("img/RectanglePrice.png");
+  background-image: url("../img/RectanglePrice.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -527,7 +529,7 @@ a {
 .price-item.exclusive::before {
   content: "";
   position: absolute;
-  background-image: url("img/Price.png");
+  background-image: url("../img/Price.png");
   width: 90px;
   height: 90px;
   background-repeat: no-repeat;
@@ -609,6 +611,10 @@ a {
   width: 400px;
   display: flex;
   justify-content: space-between;
+}
+
+.defence-link-item a:hover {
+  font-weight: 600;
 }
 
 /* ПРАВА БЛОК */
