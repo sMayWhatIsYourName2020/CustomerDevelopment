@@ -353,7 +353,7 @@ a {
 
 .results-item dt::before {
   content: "";
-  background-image: url("img/r1.svg");
+  background-image: url("../img/r1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 60px;
@@ -365,15 +365,15 @@ a {
 }
 
 .results-item:nth-child(2) dt::before {
-  background-image: url("img/r2.svg");
+  background-image: url("../img/r2.svg");
 }
 
 .results-item:nth-child(3) dt::before {
-  background-image: url("img/r3.svg");
+  background-image: url("../img/r3.svg");
 }
 
 .results-item:last-child dt::before {
-  background-image: url("img/r4.svg");
+  background-image: url("../img/r4.svg");
 }
 
 /* РЕЗУЛЬТАТЫ БЛОК */
